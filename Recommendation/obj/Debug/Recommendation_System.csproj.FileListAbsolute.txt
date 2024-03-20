@@ -1,0 +1,11 @@
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Recommendation\bin\Debug\Recommendation.dll
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Recommendation\bin\Debug\Recommendation.pdb
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Recommendation\bin\Debug\Neural_Network.dll
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Recommendation\bin\Debug\Word_2_Vec.dll
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Recommendation\bin\Debug\Neural_Network.pdb
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Recommendation\bin\Debug\Word_2_Vec.pdb
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Recommendation\obj\Debug\Recommendation_System.csproj.AssemblyReference.cache
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Recommendation\obj\Debug\Recommendation_System.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Recommendation\obj\Debug\Recommen.F11F1D27.Up2Date
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Recommendation\obj\Debug\Recommendation.dll
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Recommendation\obj\Debug\Recommendation.pdb

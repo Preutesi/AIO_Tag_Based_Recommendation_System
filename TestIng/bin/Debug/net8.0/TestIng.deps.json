@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TestIng/1.0.0": {
+        "dependencies": {
+          "Neural_Network": "1.0.0",
+          "Recommendation_System": "1.0.0",
+          "Word_2_Vec": "1.0.0"
+        },
+        "runtime": {
+          "TestIng.dll": {}
+        }
+      },
+      "Neural_Network/1.0.0": {
+        "runtime": {
+          "Neural_Network.dll": {}
+        }
+      },
+      "Recommendation_System/1.0.0": {
+        "dependencies": {
+          "Neural_Network": "1.0.0",
+          "Word_2_Vec": "1.0.0"
+        },
+        "runtime": {
+          "Recommendation.dll": {}
+        }
+      },
+      "Word_2_Vec/1.0.0": {
+        "dependencies": {
+          "Neural_Network": "1.0.0"
+        },
+        "runtime": {
+          "Word_2_Vec.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestIng/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Neural_Network/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Recommendation_System/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Word_2_Vec/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

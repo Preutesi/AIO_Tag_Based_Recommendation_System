@@ -1,0 +1,6 @@
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Neural_Network\obj\Debug\Neural_Network.csproj.AssemblyReference.cache
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Neural_Network\obj\Debug\Neural_Network.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Neural_Network\bin\Debug\Neural_Network.dll
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Neural_Network\bin\Debug\Neural_Network.pdb
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Neural_Network\obj\Debug\Neural_Network.dll
+C:\Users\andre\Documents\GitHub repos\Recommendation_System\Neural_Network\obj\Debug\Neural_Network.pdb

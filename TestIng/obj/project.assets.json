@@ -1,0 +1,145 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Neural_Network/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Neural_Network.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Neural_Network.dll": {}
+        }
+      },
+      "Recommendation_System/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Neural_Network": "1.0.0",
+          "Word_2_Vec": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Recommendation_System.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Recommendation_System.dll": {}
+        }
+      },
+      "Word_2_Vec/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Neural_Network": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Word_2_Vec.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Word_2_Vec.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Neural_Network/1.0.0": {
+      "type": "project",
+      "path": "../Neural_Network/Neural_Network.csproj",
+      "msbuildProject": "../Neural_Network/Neural_Network.csproj"
+    },
+    "Recommendation_System/1.0.0": {
+      "type": "project",
+      "path": "../Recommendation/Recommendation_System.csproj",
+      "msbuildProject": "../Recommendation/Recommendation_System.csproj"
+    },
+    "Word_2_Vec/1.0.0": {
+      "type": "project",
+      "path": "../Word_2_Vec/Word_2_Vec.csproj",
+      "msbuildProject": "../Word_2_Vec/Word_2_Vec.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Neural_Network >= 1.0.0",
+      "Recommendation_System >= 1.0.0",
+      "Word_2_Vec >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\TestIng\\TestIng.csproj",
+      "projectName": "TestIng",
+      "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\TestIng\\TestIng.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\TestIng\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\andre\\Desktop": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Neural_Network\\Neural_Network.csproj": {
+              "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Neural_Network\\Neural_Network.csproj"
+            },
+            "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Recommendation\\Recommendation_System.csproj": {
+              "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Recommendation\\Recommendation_System.csproj"
+            },
+            "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Word_2_Vec\\Word_2_Vec.csproj": {
+              "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Word_2_Vec\\Word_2_Vec.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\TestIng\\TestIng.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Neural_Network\\Neural_Network.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Neural_Network\\Neural_Network.csproj",
+        "projectName": "Neural_Network",
+        "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Neural_Network\\Neural_Network.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Recommendation\\Recommendation_System.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Recommendation\\Recommendation_System.csproj",
+        "projectName": "Recommendation_System",
+        "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Recommendation\\Recommendation_System.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Neural_Network\\Neural_Network.csproj": {
+                "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Neural_Network\\Neural_Network.csproj"
+              },
+              "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Word_2_Vec\\Word_2_Vec.csproj": {
+                "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Word_2_Vec\\Word_2_Vec.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\TestIng\\TestIng.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\TestIng\\TestIng.csproj",
+        "projectName": "TestIng",
+        "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\TestIng\\TestIng.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\TestIng\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\andre\\Desktop": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Neural_Network\\Neural_Network.csproj": {
+                "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Neural_Network\\Neural_Network.csproj"
+              },
+              "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Recommendation\\Recommendation_System.csproj": {
+                "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Recommendation\\Recommendation_System.csproj"
+              },
+              "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Word_2_Vec\\Word_2_Vec.csproj": {
+                "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Word_2_Vec\\Word_2_Vec.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Word_2_Vec\\Word_2_Vec.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Word_2_Vec\\Word_2_Vec.csproj",
+        "projectName": "Word_2_Vec",
+        "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Word_2_Vec\\Word_2_Vec.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Neural_Network\\Neural_Network.csproj": {
+                "projectPath": "C:\\Users\\andre\\Documents\\GitHub repos\\Recommendation_System\\Tag_Based_Recommendation_System\\Neural_Network\\Neural_Network.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}
